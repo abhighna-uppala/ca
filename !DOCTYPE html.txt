@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nipuna Technologies - Cloud Computing</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff; /* White background color */
+    font-family: Arial, sans-serif;
+  }
+  
+  .moving-heading {
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    color: #001f3f; /* Navy blue heading color */
+    background-color: #ff69b4; /* Pink background color */
+    display: inline-block;
+    padding: 10px 20px;
+    white-space: nowrap;
+    animation: moveText 8s linear infinite; /* Adjust animation duration as needed */
+  }
+  
+  @keyframes moveText {
+    0%, 100% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(100%);
+    }
+  }
+  
+  .info {
+    max-width: 800px;
+    margin-top: 30px;
+    text-align: justify;
+    padding: 0 20px;
+  }
+  
+  h2 {
+    color: #001f3f;
+    text-align: center;
+  }
+  
+  p {
+    color: #333333;
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+  <div class="moving-heading">
+    Nipuna Technologies
+  </div>
+  
+  <div class="info">
+    <h2>Cloud Computing</h2>
+    <p>Cloud computing is the delivery of various services through the Internet. These resources include tools and applications like data storage, servers, databases, networking, and software. Cloud-based solutions can provide advantages such as scalability, flexibility, cost-effectiveness, and accessibility.</p>
+    <p>Organizations and individuals can use cloud computing services to store and process data, run applications, host websites, and more, without having to manage physical infrastructure.</p>
+    <p>Key benefits of cloud computing include:</p>
+    <ul>
+      <li>Scalability and flexibility: Resources can be scaled up or down based on demand.</li>
+      <li>Cost-effectiveness: Pay only for the resources and services used.</li>
+      <li>Accessibility: Access data and applications from anywhere with an internet connection.</li>
+      <li>Reliability and security: Cloud providers often have robust security measures and redundant systems.</li>
+    </ul>
+    <p>Overall, cloud computing has revolutionized how businesses and individuals use and manage technology, offering new opportunities for innovation and efficiency.</p>
+  </div>
+</body>
+</html>
